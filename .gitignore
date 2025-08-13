@@ -1,0 +1,26 @@
+# venv / caches
+.venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.log
+.python-version
+.tfhub-cache/
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & outputs (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Build / dist
+build/
+dist/
+*.egg-info/
